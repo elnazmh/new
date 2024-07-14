@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            text-align: center;
+            border: solid 5px black;
+            height: 100vh;
+        }
+
+        .yek {
+            background-color: crimson;
+        }
+
+        .do {
+            background-color: aliceblue;
+        }
+
+        .se {
+            background-color: rgb(203, 203, 94);
+        }
+
+        .char {
+            background-color: chartreuse;
+        }
+
+        .panj {
+            background-color: blue;
+        }
+        /* Desktop */
+        @media screen and (min-width: 980px) and (max-width:1500px) {
+            .container {
+                grid-template-rows: 1fr 3fr 1fr;
+                grid-template-columns: 1fr 3fr 1fr;
+            }
+
+            .yek {
+                grid-column-start: 1;
+                grid-column-end: 4;
+            }
+
+            .do {
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+
+            .se {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+
+            .char {
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+
+            .panj {
+                grid-column-start: 1;
+                grid-column-end: 4;
+
+            }
+        }
+        /* Tablet */
+        @media screen and (min-width: 480px) and (max-width:979px) {
+            .container {
+                grid-template-rows: 1fr 3fr 2fr 1fr;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .yek {
+                grid-row-start: 1;
+                grid-row-end: 2;
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+
+            .do {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+
+            .se {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 3;
+                grid-row-end: 4;
+            }
+
+            .char {
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 3;
+                grid-row-end: 4;
+            }
+
+            .panj {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 4;
+                grid-row-end: 5;
+            }
+        }
+        /* Mobile */
+        @media screen and (min-width: 1px) and (max-width:480px) {
+            .container {
+                grid-template-rows: repeat(5, 1fr);
+                grid-template-columns: 1fr;
+            }
+
+            .yek {
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+
+            .do {
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+
+            .se {
+                grid-row-start: 3;
+                grid-row-end: 4;
+            }
+
+            .char {
+                grid-row-start: 4;
+                grid-row-end: 5;
+            }
+
+            .panj {
+                grid-row-start: 5;
+                grid-row-end: 6;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box yek">Header</div>
+        <div class="box do">Main</div>
+        <div class="box se">Left</div>
+        <div class="box char">Right</div>
+        <div class="box panj">Footer</div>
+    </div>
+
+</body>
+
+</html>

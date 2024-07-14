@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sodo</title>
+    <style>
+        p:last-child {
+            background-color: blueviolet;
+        }
+
+        p:first-child {
+            color: blue;
+            background-color: aqua;
+            display: inline-block;
+        }
+
+        h1:first-of-type {
+            color: chartreuse;
+        }
+
+        p:not(h1) {
+            font-style: italic;
+        }
+
+        .asli {
+            height: 300px;
+            background-color: burlywood;
+        }
+
+        .farii {
+            height: 100px;
+            background-color: chocolate;
+        }
+
+        .fariii {
+            height: 100px;
+            background-color: cornflowerblue;
+        }
+
+        .asli::after {
+            content: "ele";
+            color: black;
+            font-size: large;
+        }
+
+        .asli::before {
+            content: "chetori";
+            color: azure;
+            text-transform: capitalize;
+        }
+
+        .asli::selection {
+
+            background-color: crimson;
+        }
+
+        .asli::first-letter {
+            color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <p>elnazam</p>
+    <p>doset dram</p>
+    <p>elnazam</p>
+    <b>elim</b>
+    <h1>hiiii</h1>
+    <p>elnazam</p>
+    <h1>jiji</h1>
+    <div>
+        <p>elnazam</p>
+        <p>elnazam</p>
+    </div>
+    <div class="asli">
+        <div class="farii"></div>
+        <div class="fariii"></div>
+    </div>
+</body>
+
+</html>

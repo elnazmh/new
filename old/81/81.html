@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float</title>
+    <style>
+        body {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            text-align: center;
+
+        }
+
+        .header {
+            background-color: blue;
+            height: 300px;
+        }
+
+
+        .yek {
+            background-color: blueviolet;
+            height: 200px;
+            width: 75%;
+            float: left;
+
+
+        }
+
+        .do {
+            background-color: chartreuse;
+            height: 200px;
+            width: 25%;
+            float: right;
+        }
+
+        .footer {
+            background-color: crimson;
+            height: 300px;
+        }
+
+        .main::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">header</div>
+    <div class="main">
+        <div class="yek">yek</div>
+        <div class="do">do</div>
+
+    </div>
+    <div class="footer">footer</div>
+</body>
+
+</html>

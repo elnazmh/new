@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div>p:nth-last-child(3) {
+            color: aqua;
+        }
+
+        div+p {
+            color: blueviolet;
+        }
+
+        div~p {
+            color: blanchedalmond;
+        }
+
+        p+div {
+            font-size: x-large;
+        }
+
+        p~div {
+            font-style: italic;
+        }
+
+        p>div {
+            font-size: xx-small;
+        }
+    </style>
+</head>
+
+<body>
+    <div>parent
+        <div>child1</div>
+        <p>child2</p>
+        <p>child3</p>
+        <div>child4
+            <p>nave4</p>
+        </div>
+        <h1>child5</h1>
+    </div>
+</body>
+
+</html>

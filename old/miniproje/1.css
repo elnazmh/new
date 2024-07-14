@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(195, 184, 184);
+}
+
+.yek {
+    background-color: #fff;
+    width: 700px;
+    min-width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 20px;
+
+}
+
+.do {
+
+    border-style: dotted;
+    width: 100px;
+    border-color: black;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+
+
+
+}
+
+.se {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+    height: 30px;
+    width: 200px;
+    display: block;
+    margin: auto;
+
+
+}
+
+.chahar {
+    text-align: center;
+}
+
+.panj {
+    background-color: ghostwhite;
+    display: block;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+
+.social-network-image {
+    height: 120px;
+    width: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+
+}
+
+.sefr {
+    text-align: center;
+    padding-top: 10px;
+}

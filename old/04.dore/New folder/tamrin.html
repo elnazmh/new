@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b53628c754.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .header {
+            display: flex;
+            justify-content: end;
+            padding: 10px;
+        }
+
+        .yek {
+            color: white;
+        }
+
+        .spann {
+            color: rgb(29, 142, 187);
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            font-size: xx-large;
+        }
+
+        .pa {
+            color: white;
+            padding-top: 10px;
+            text-align: center;
+            font-size: medium;
+        }
+
+        .divv {
+            position: relative;
+        }
+
+        .divv>i {
+            color: #FFD43B;
+            font-size: x-large;
+            display: flex;
+            justify-content: center;
+            /*margin-top: -7px;*/
+            position: absolute;
+            left: 50%;
+            top: -5%;
+
+
+        }
+
+        .logo {
+            color: rgb(32, 191, 199);
+        }
+
+        .company {
+            color: rgb(54, 54, 221);
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+
+        @media screen and (min-width: 980px) and (max-width:1200px) {
+            .container {
+                display: flex;
+                justify-content: space-around;
+                padding-top: 50px;
+            }
+
+            .divv {
+                width: 250px;
+                height: 270px;
+                border: sol id 1px black;
+                background-color: rgba(87, 67, 67, 0.844);
+            }
+
+            .pp {
+                color: white;
+                font-size: x-large;
+                text-align: center;
+                line-height: 42px;
+            }
+
+            .mostaghel {
+                display: none !important;
+            }
+
+        }
+
+        @media screen and (min-width: 767px) and (max-width:980px) {
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+
+            }
+
+            .divv {
+                width: 250px;
+                height: 120px;
+                border: solid 1px black;
+                background-color: rgba(87, 67, 67, 0.844);
+                margin: 20px;
+            }
+
+            .pp {
+                color: white;
+                font-size: x-large;
+                text-align: center;
+                line-height: 42px;
+            }
+
+            .divv:first-child {
+                width: 80%;
+            }
+
+            .mostaghel {
+                display: none !important;
+            }
+
+
+
+        }
+
+        @media screen and (min-width: 481px) and (max-width:767px) {
+            .header {
+                display: none;
+
+
+
+
+            }
+
+
+
+            h1 {
+                padding-top: 20px;
+                font-size: 40px;
+
+            }
+
+            .pa {
+                font-size: small;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .divv {
+                width: 280px;
+                /* height: 50px; */
+                border: solid 1px black;
+                background-color: rgba(87, 67, 67, 0.844);
+                margin: 20px;
+            }
+
+            .pp {
+                color: white;
+                font-size: medium;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mostaghel">
+        <i class="fa fa-bars" style="display: flex;justify-content: end;color: aliceblue;"></i>
+
+    </div>
+    <div class="logo">
+        <h2>Some <span class="company">Company</span></h2>
+    </div>
+    <div class="header">
+
+        <ol class="header yek">
+            <li class="header do">
+                Home
+            </li>
+            <li class="header do"><span class="spann">Product</span></li>
+            <li class="header do">FAQ</li>
+            <li class="header do">Contact</li>
+        </ol>
+    </div>
+    <div>
+        <h1>Scafolding a New Company</h1>
+        <p class="pa">join us with the lastet blockchain innovations</p>
+    </div>
+    <div class="container">
+        <div class="divv">
+            <i class="fa-solid fa-money-check-dollar"></i>
+            <p class="pp">join us with the lastet blockchain innovations </p>
+        </div>
+        <div class="divv">
+            <i class="fa-solid fa-money-check-dollar"></i>
+
+            <p class="pp">join us with the lastet blockchain innovations</p>
+
+        </div>
+        <div class="divv">
+            <i class="fa-solid fa-money-check-dollar"></i>
+
+            <p class="pp">join us with the lastet blockchain innovations</p>
+        </div>
+    </div>
+    <div class="img"><img src="../04.dore/javascript_illustration 1.png" alt="" width="250px" height="100px"></div>
+
+
+
+
+
+</body>
+
+</html>

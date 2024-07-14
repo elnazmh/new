@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: bist;
+    src: url("../projectelnaz/Far_Bist.ttf") format(ttf);
+    font-family: lalezar;
+    src: url("../projectelnaz/Lalezar-Regular.ttf") format(ttf
+    );
+
+}
+
+.header {
+    background-image: url("../projectelnaz/img/Trust-this-computer-By-PCbots.jpg");
+    width: 1700px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.headeryek {
+    list-style-type: none;
+    color: #fff;
+    text-align: center;
+    font-size: larger;
+    font-family: lalezar;
+
+}
+
+.headerdo {
+    display: inline-block;
+    padding: 20px;
+}
+
+.headerdo:hover {
+    color: blue;
+}
+
+.headerse {
+    text-align: center;
+    color: #fff;
+    font-family: bist;
+    padding: 50px;
+    word-spacing: 2px;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.span {
+    color: chocolate;
+}
+
+.headerchar {
+    text-align: center;
+    color: #fff;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.member{margin-right: 10px;}
+.memberyek {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.memberdo {
+    width: 450px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.memberse {
+    display: inline-block;
+    padding: 70px 210px;
+    font-size: large;
+    font-family: lalezar;
+
+}
+
+.memberchar {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 130px;
+    margin-bottom: 50px;
+
+}
+
+
+.about {
+    background-image: url("../projectelnaz/img/Try-it.png");
+    height: 500px;
+    width: 1700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #507957;
+    background-attachment: fixed;
+    background-blend-mode: multiply ;
+    padding: 60px;
+    
+}
+
+.aboutyek {
+    border-style: solid;
+    border-color:rgba(201, 187, 187, 0.5);
+    border-radius: 50%;
+    box-shadow:0 0 10px 0 red;
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    padding-top: 100px;
+    text-align: justify;
+    
+}
+
+.aboutdo {
+    text-align: center;
+    font-size: large;
+    font-family: lalezar;
+    color: #fff;
+    padding-bottom: 10px;
+    
+}
+.aboutse{width: 380px;
+    font-size: medium;
+    color: #fff;
+    line-height: 20px;
+    padding-right: 60px;
+    font-family: Reem Kufi Fun
+    ;
+}
+.footer{width: 700px;
+border-style: double;
+border-color: blueviolet;
+border-width: 1px;
+background-color: bisque;
+background-blend-mode: multiply;
+text-align: center;
+box-shadow: 0 0 5px 0 cornflowerblue;
+margin: auto;margin-top: 100px;}
+.footeryek{padding: 10px;
+    padding-top: 20px;
+
+    
+}
+.footerchar{padding: 10px;
+width: 170px;}

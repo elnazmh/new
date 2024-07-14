@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: chocolate;
+        }
+
+        
+        .main {
+            border: solid 2px white;
+            width: 250px;
+            height: 250px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+
+        }
+
+
+
+        .yek {
+            width: 5px;
+            height: 80px;
+            background-color: white;
+            border: solid 2px white;
+            padding: 10px;
+            margin: 10px;
+            animation-name: el;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+
+
+
+
+
+        }
+
+        @keyframes el {
+            0% {
+
+                transform: scaley(0.5);
+
+
+
+            }
+
+            20% {
+                transform: scaley(1);
+            }
+
+            40% {
+
+                transform: scaley(0.5);
+
+
+
+            }
+
+            100% {
+
+                transform: scaley(1);
+
+
+
+            }
+
+
+
+
+        }
+
+
+
+        .do {
+            width: 5px;
+            height: 80px;
+            background-color: white;
+            border: solid 2px white;
+            padding: 10px;
+            margin: 10px;
+            animation-name: el;
+            animation-delay: -1s;
+            animation-iteration-count: infinite;
+
+
+
+        }
+
+
+
+        .se {
+            width: 5px;
+            height: 80px;
+            background-color: white;
+            border: solid 2px white;
+            padding: 10px;
+            margin: 10px;
+            animation-name: el;
+            animation-delay: -2s;
+            animation-iteration-count: infinite;
+
+
+        }
+
+        .char {
+            width: 5px;
+            height: 80px;
+            background-color: white;
+            border: solid 2px white;
+            padding: 10px;
+            margin: 10px;
+            animation-name: el;
+            animation-delay: -3s,
+            animation-iteration-count: infinite;
+
+
+        }
+
+        .panj {
+            width: 5px;
+            height: 80px;
+            background-color: white;
+            border: solid 2px white;
+            padding: 10px;
+            margin: 10px;
+            animation-name: el;
+            animation-delay: -4s;
+            animation-iteration-count:infinite;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box yek"></div>
+        <div class="box do"></div>
+        <div class="box se"></div>
+        <div class="box char"></div>
+        <div class="box panj"></div>
+    </div>
+</body>
+
+</html>

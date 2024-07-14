@@ -1,0 +1,85 @@
+body {
+    background-color: cadetblue;
+}
+
+.head {
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: azure;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(147, 146, 233);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding-top: 30px;
+
+
+}
+
+.span {
+    font-size: larger;
+    color: aliceblue;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.table {
+    color: #fff;
+
+    border-style: solid;
+    border-color: #000;
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    width: 200px;
+    padding-top: 10px;
+    background-color: coral;
+
+
+}
+
+.tablee {
+    color: #fff;
+    border-style: solid;
+    border-color: #000;
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    width: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: coral;
+}
+
+.link {
+
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-style: solid;
+    border-color: #5b7a1f;
+    height: 220px;
+    width: 250px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: pink;
+
+
+}
+
+.img {
+    border-radius: 30%;
+    border-style: double;
+    border-color: cornflowerblue;
+
+    display: block;
+    margin: auto;
+}

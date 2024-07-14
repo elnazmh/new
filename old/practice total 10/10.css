@@ -1,0 +1,112 @@
+.titr {
+    background-color: rgb(208, 121, 154);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: double;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    color: aliceblue;
+
+
+}
+
+.tableyek {
+    color: blueviolet;
+    font-size: large;
+    border-style: solid;
+    border-color: rgb(25, 124, 61);
+    margin-top: 100px;
+    height: 200x;
+    width: 200px;
+    text-align: center;
+}
+
+.tabledo {
+    color: blueviolet;
+    font-size: large;
+    border-style: solid;
+    border-color: rgb(25, 124, 61);
+    margin-top: 2px;
+    height: 200x;
+    width: 200px;
+    text-align: center;
+}
+
+.ul1 {
+    margin-top: 100px;
+}
+
+.li1 {
+    background-color: cadetblue;
+    font-size: large;
+    width: 50px;
+}
+
+.li1 :visited {
+    background-color: blueviolet;
+}
+
+.li1 :hover {
+    background-color: chartreuse;
+}
+
+.li1 :active {
+    background-color: yellow;
+}
+
+.li2 {
+    background-color: cadetblue;
+    font-size: large;
+    width: 50px;
+}
+
+.li2 :visited {
+    background-color: blueviolet;
+}
+
+.li2 :hover {
+    background-color: chartreuse;
+}
+
+.li2 :active {
+    background-color: yellow;
+}
+
+.li3 {
+    background-color: cadetblue;
+    font-size: large;
+    width: 50px;
+}
+
+.li3 :visited {
+    background-color: blueviolet;
+}
+
+.li3 :hover {
+    background-color: chartreuse;
+}
+
+.li3 :active {
+    background-color: yellow;
+}
+
+.headmid {
+    background-color: aqua;
+    border-bottom-style: dashed;
+    margin-top: 200px;
+    text-align: center;
+    width: 70px;
+}
+
+.img {
+    border-style: double;
+    border-color: blue;
+    border-radius: 40%;
+    width: 310px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+#elnaz{ color: aqua;}

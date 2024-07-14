@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lets go</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 100vh;
+            display: grid;
+            border: solid 5px white;
+        }
+
+        .yek {
+            background-color: red;
+        }
+
+        .do {
+            background-color: rgb(225, 255, 0);
+        }
+
+        .se {
+            background-color: blue;
+        }
+
+        .char {
+            background-color: pink;
+        }
+
+        .panj {
+            background-color: green;
+        }
+
+        @media screen and (min-width: 980px) and (max-width:1200px) {
+
+            .container {
+                grid-template-rows: 1fr 2fr 1fr;
+                grid-template-columns: 1fr 2fr 1fr;
+            }
+
+            .yek {
+                grid-row-start: 1;
+                grid-row-end: 2;
+                grid-column-start: 1;
+                grid-column-end: 4;
+                text-align: center;
+                padding-top: 150px;
+                font-size: larger;
+                font-style: normal;
+
+
+
+            }
+
+            .do {
+                grid-row-start: 2;
+                grid-row-end: 3;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                text-align: center;
+                padding-top: 50px;
+            }
+
+            .se {
+                grid-row-start: 2;
+                grid-row-end: 3;
+                grid-column-start: 2;
+                grid-column-end: 3;
+                text-align: left;
+                text-align: justify;
+                line-height: 30px;
+                font-size: large;
+                padding-top: 20px;
+            }
+
+            .char {
+                grid-row-start: 2;
+                grid-row-end: 3;
+                grid-column-start: 3;
+                grid-column-end: 4;
+                text-align: center;
+                padding-top: 20px;
+            }
+
+            .panj {
+                grid-row-start: 3;
+                grid-row-end: 4;
+                grid-column-start: 1;
+                grid-column-end: 4;
+                text-align: center;
+                padding-top: 150px;
+                text-align: center;
+
+            }
+
+
+
+
+
+        }
+
+        @media screen and (min-width: 767px) and (max-width:979px) {
+
+            .container {
+                grid-template-rows: 3fr 1fr 1fr;
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .yek {
+                display: none;
+            }
+
+            .do {
+                grid-row-start: 2;
+                grid-row-end: 3;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                text-align: center;
+                padding-top: 40px;
+            }
+
+            .se {
+                grid-row-start: 1;
+                grid-row-end: 2;
+                grid-column-start: 1;
+                grid-column-end: 3;
+                text-align: center;
+                padding-top: 40px;
+            }
+
+            .char {
+                grid-row-start: 2;
+                grid-row-end: 3;
+                grid-column-start: 2;
+                grid-column-end: 3;
+                text-align: center;
+                padding-top: 40px;
+
+            }
+
+            .panj {
+                grid-row-start: 3;
+                grid-row-end: 4;
+                grid-column-start: 1;
+                grid-column-end: 3;
+                text-align: center;
+                padding-top: 90px;
+
+            }
+
+        }
+
+        @media screen and (min-width: 481px) and (max-width:766px) {
+            .container {
+                grid-template-rows: 1fr 3fr;
+                grid-template-columns: 1fr;
+            }
+
+            .yek {
+                grid-row-start: 1;
+                grid-row-end: 2;
+                text-align: center;
+                padding-top: 90px;
+
+            }
+
+            .do {
+                display: none;
+            }
+
+            .se {
+                grid-row-start: 2;
+                grid-row-end: 3;
+                padding-top: 20px;
+            }
+
+            .char {
+                display: none;
+            }
+
+            .panj {
+                display: none;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box yek">
+
+            Header
+
+
+        </div>
+        <div class="box do">rast</div>
+        <div class="box se">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quod sequi molestiae quas
+            architecto recusandae! Voluptatem nulla officia beatae aliquid pariatur perspiciatis qui ex quasi
+            reprehenderit magni cum, consequatur nemo?</div>
+        <div class="box char">chap</div>
+        <div class="box panj">footer</div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

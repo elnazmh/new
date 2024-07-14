@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .continer::before {
+            content: "el";
+            background-color: brown;
+            display: block;
+        }
+
+        .continer::after {
+            content: "omid";
+            background-color: blueviolet;
+            display: block;
+        }
+
+        .box {
+            height: 80px;
+            background-color: blue;
+        }
+
+        ol {
+            font-size: large;
+            color: blueviolet;
+        }
+
+        ol::before {
+            content: "elnaz";
+            height: 200px;
+            width: 50%;
+            background-color: aqua;
+        }
+
+        h1::after {
+            content: "leila";
+            background-color: chartreuse;
+        }
+
+        h1::first-letter {
+            color: aquamarine;
+            text-shadow: 0 0 10px coral;
+        }
+
+        table::before {
+            background-color: chocolate;
+            height: 100px;
+            width: 100px;
+            content: "elim";
+        }
+
+        li:nth-child(3) {
+            color: blue;
+        }
+
+        li:nth-last-child(1) {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="continer">
+        <div class="box"></div>
+    </div>
+
+
+    <p>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ol>
+    </p>
+    <p>
+    <h1>saeed</h1>
+    </p>
+
+    <table>
+        <tr>
+            <th>yek</th>
+            <th>do</th>
+        </tr>
+
+    </table>
+</body>
+
+</html>

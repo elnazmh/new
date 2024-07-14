@@ -1,0 +1,10 @@
+h1 {
+    border-style: double;
+    color: rgb(rgb(94, 208, 117), green, blue);
+    border-width: thin;
+    border-radius: 50px;
+}
+ins {
+    border: solid blue 50px;
+    padding-top: 20px;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tamrin grid</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .container {
+            height: 500px;
+            border: solid 5px black;
+            display: grid;
+            grid-template-columns: 2fr 2fr 1fr 2fr 2fr;
+            grid-template-rows: 2fr repeat(2, 1fr) 2fr;
+            background-color: red;
+
+
+
+        }
+
+        .box {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            border: solid rgb(13, 12, 12) 5px;
+
+
+
+        }
+
+        .yek {
+            background-color: red;
+            grid-row-start: 1;
+            grid-row-end: 3;
+
+        }
+
+        .do {
+            background-color: deepskyblue;
+            grid-column-start: 2;
+            grid-column-end: 4;
+
+
+
+        }
+
+        .se {
+            background-color: rgb(147, 154, 72);
+            grid-column-start: 4;
+            grid-column-end: 6;
+
+
+        }
+
+        .char {
+            background-color: rgb(180, 143, 34);
+            grid-row-start: 2;
+            grid-row-end: 4;
+
+        }
+
+        .panj {
+            background-color: rgb(251, 251, 250);
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end: 4;
+
+
+
+        }
+
+        .shish {
+            grid-row-start: 2;
+            grid-row-end: 5;
+
+
+            background-color: rgb(250, 2, 2);
+        }
+
+        .haft {
+            background-color: deepskyblue;
+            grid-column-start: 4;
+            grid-column-end: 5;
+
+        }
+
+        
+
+        .hasht {
+            background-color: rgb(240, 239, 237);
+            grid-row-start: 3;
+            grid-row-end: 5;
+
+        }
+
+        .haftp {
+            background-color: rgb(250, 2, 2);
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 5;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box yek"></div>
+        <div class="box do"></div>
+        <div class="box se"></div>
+        <div class="box char"></div>
+        <div class="box panj"></div>
+        <div class="box shish"></div>
+        <div class="box haft"></div>
+        <div class="box haftp"></div>
+        <div class="box hasht"></div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>

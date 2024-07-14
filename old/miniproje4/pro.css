@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: bist;
+    src: url("../miniproje4/Far_Bist.ttf");
+    font-family: lalezar;
+    src: url('../miniproje4/Lalezar-Regular.ttf');
+
+}
+
+.ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 50px;
+}
+
+.ab:hover {
+    color: blue;
+}
+
+li {
+    display: inline-block;
+}
+
+.ab {
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+}
+
+.div {
+    background-image: url("../miniproje4/img/1_yHhI4F3IrlIvORSKEhtXjQ.png");
+    height: 1000px;
+    width: 1700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.titr {
+    font-size: xx-large;
+    font-family: lalezar;
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+    word-spacing: 10px;
+}
+
+.span {
+    color: chocolate;
+}
+
+.text{color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    width: 370px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+border-radius: 50%;
+font-family:bist;
+
+    
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            height: 200px;
+            background-color: aquamarine;
+        }
+
+        .main {
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            height: 200px;
+            background-color: darkblue;
+        }
+
+        .footer {
+            height: 200px;
+            background-color: darksalmon;
+        }
+        .main::after{
+            background-color: white;
+            padding: 10px;
+            height: 10px;
+            border: 0ch;
+            content: "omid";
+        }
+        .yek {color: blue;
+            
+            background-color: deeppink;
+            width: 40%;
+            height: 150px;
+            float: left;
+
+        }
+
+        .do {
+            background-color: gold;
+            width: 40%;
+            height: 150px;
+            float: right;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="header">
+        header
+    </div>
+    <div class="main">
+        main
+        <div class="yek">yek</div>
+        <div class="do">do</div>
+    </div>
+    <div class="footer">
+        footer
+    </div>
+</body>
+
+</html>
